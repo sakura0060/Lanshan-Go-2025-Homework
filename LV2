@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+	var x int
+	var sum int
+	sum = 0
+	for x = 1; x <= 1000; x++ {
+		sum += x
+		fmt.Println("sum=", sum)
+	}
+}
